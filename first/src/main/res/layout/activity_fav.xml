@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_favor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:weightSum="1"
+        android:layout_marginTop="34dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/radiog">
+
+        <TextView
+            android:text="性别:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:id="@+id/textView2"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="男"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="1dp"
+            android:id="@+id/rbboy" />
+        <RadioButton
+            android:text="女"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/rbgirl"
+            android:checked="true" />
+
+    </RadioGroup>
+
+    <TextView
+        android:text="爱好："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radiog"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="129dp"
+        android:id="@+id/textView4" />
+
+    <CheckBox
+        android:text="篮球"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/cb1" />
+
+    <CheckBox
+        android:text="足球"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cb1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="60dp"
+        android:layout_marginEnd="60dp"
+        android:id="@+id/cb2" />
+
+    <CheckBox
+        android:text="苍老师"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cb1"
+        android:layout_alignLeft="@+id/cb1"
+        android:layout_alignStart="@+id/cb1"
+        android:layout_marginTop="23dp"
+        android:id="@+id/cb3" />
+
+    <CheckBox
+        android:text="电脑游戏"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb4"
+        android:layout_alignBaseline="@+id/cb3"
+        android:layout_alignBottom="@+id/cb3"
+        android:layout_alignLeft="@+id/cb2"
+        android:layout_alignStart="@+id/cb2" />
+
+    <Button
+        android:text="确定下一页"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="17dp"
+        android:layout_marginEnd="17dp"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/cb4"
+        android:layout_alignEnd="@+id/cb4" />
+
+
+
+
+
+
+    <TextView
+        android:text="籍贯:"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radiog"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView" />
+    <!--添加下拉菜单控件-->
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:entries="@array/provay"
+        android:layout_marginTop="33dp" />
+</RelativeLayout>

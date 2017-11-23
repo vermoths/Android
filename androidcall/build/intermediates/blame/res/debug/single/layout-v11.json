@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Vermoths\\He\\androidcall\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Vermoths\\.android\\build-cache\\45df8e91e530394400dce54bbc66436f7c28801d\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\Vermoths\\He\\androidcall\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\Vermoths\\.android\\build-cache\\45df8e91e530394400dce54bbc66436f7c28801d\\output\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\Vermoths\\He\\androidcall\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Vermoths\\.android\\build-cache\\45df8e91e530394400dce54bbc66436f7c28801d\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\Vermoths\\He\\androidcall\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Vermoths\\.android\\build-cache\\45df8e91e530394400dce54bbc66436f7c28801d\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\Vermoths\\He\\androidcall\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Vermoths\\.android\\build-cache\\45df8e91e530394400dce54bbc66436f7c28801d\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "D:\\Vermoths\\He\\androidcall\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\Vermoths\\.android\\build-cache\\45df8e91e530394400dce54bbc66436f7c28801d\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    }
+]

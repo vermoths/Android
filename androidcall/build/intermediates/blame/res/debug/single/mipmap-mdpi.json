@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Vermoths\\He\\androidcall\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "D:\\Vermoths\\He\\androidcall\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Vermoths\\He\\androidcall\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
+        "source": "D:\\Vermoths\\He\\androidcall\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    }
+]
